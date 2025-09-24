@@ -1,7 +1,7 @@
 {
   "project": "example",
-  "project_folder": "/scratch/synthoseis_example",
-  "work_folder": "/scratch",
+  "project_folder": "../scratch/synthoseis_example",
+  "work_folder": "../scratch",
   "cube_shape": [300, 300, 1250],
   "incident_angles": [7, 15, 24],
   "digi": 4,
@@ -36,7 +36,7 @@
   "basin_floor_fans": false,
   "include_channels": false,
   "include_salt": true,
-  "write_to_hdf": false,
+  "write_to_hdf": true,
   "broadband_qc_volume": false,
   "model_qc_volumes": true,
   "multiprocess_bp": true

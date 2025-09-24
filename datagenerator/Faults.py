@@ -2334,7 +2334,7 @@ class Faults(Horizons, Geomodel):
         print(
             f"    ... Max displacement point before rotation and adding of padding x,y = {x_center} {y_center}"
         )
-        new_matrix = np.lib.pad(
+        new_matrix = np.pad(
             new_matrix, ((abs(x_pad), abs(x_pad)), (abs(y_pad), abs(y_pad))), "edge"
         )
         new_matrix = np.roll(new_matrix, int(x_roll), axis=0)

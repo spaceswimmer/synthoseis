@@ -770,7 +770,7 @@ def mute_above_seafloor(surface, xyz):
     return xyz_muted
 
 
-def is_it_in_hull(hull, p) -> np.ndarray[bool]:
+def is_it_in_hull(hull, p) -> np.ndarray:
     """
     Is it in hull?
     --------------
