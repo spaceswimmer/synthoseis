@@ -30,7 +30,7 @@
     "max": 0.25
   },
   "extra_qc_plots": true,
-  "verbose": true,
+  "verbose": false,
   "partial_voxels": true,
   "variable_shale_ng": false,
   "basin_floor_fans": false,
