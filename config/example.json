@@ -2,7 +2,7 @@
   "project": "example",
   "project_folder": "../scratch/synthoseis_example",
   "work_folder": "../scratch",
-  "cube_shape": [300, 300, 1250],
+  "cube_shape": [50, 50, 500],
   "incident_angles": [7, 15, 24],
   "digi": 4,
   "infill_factor": 10,
